@@ -1,3 +1,6 @@
+body {
+    background-color: lightblue;
+  }
 h1{
 font-family: 'Roboto', sans-serif;
 }
@@ -37,6 +40,29 @@ font-family: 'Roboto', sans-serif;
   width: 50%;
 }
 
+
+/* Media Queries*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media only screen and (min-width: 576px) { 
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h4 class="text-white">Collapsed content</h4>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+
+}
 
 /*img  {*/
 /*  max-width: 100%;*/
