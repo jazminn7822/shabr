@@ -39,22 +39,31 @@ font-family: 'Roboto', sans-serif;
   margin-right: auto;
   width: 50%;
 }
+.blue-top-background{
+   background-color: lightblue;
+}
 
 
  /*Media Queries*/
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-
-
-
-
-
-
-.navbar a:hover {
-  color: yellow;
+/*@media only screen and (max-width: px) {*/
+/*  body {*/
+/*    background-color: lightpink;*/
+/*  }*/
+@media (max-width: 600px){
+    body{
+      background-color: lightyellow;
+    }
 }
+
+/*nav*/
+/*{*/
+/*    position: sticky;*/
+/*    top:0px;*/
+/*}*/
+/*nav*/
+/*.navbar a:hover {*/
+/*  color: yellow;*/
+/*}*/
 
 img  {
   max-width: 100%;
