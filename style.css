@@ -11,6 +11,7 @@ font-family: 'Roboto', sans-serif;
 h4{
 font-family: 'Roboto', sans-serif;
 }
+
 p{
 font-family: 'Roboto', sans-serif;
 }
@@ -43,27 +44,74 @@ font-family: 'Roboto', sans-serif;
    background-color: lightblue;
 }
 
-
- /*Media Queries*/
-/*@media only screen and (max-width: px) {*/
-/*  body {*/
-/*    background-color: lightpink;*/
-/*  }*/
-@media (max-width: 600px){
-    body{
-      background-color: lightyellow;
-    }
+.Ethel{
+    color:#1D3E99;
 }
 
-/*nav*/
-/*{*/
-/*    position: sticky;*/
-/*    top:0px;*/
-/*}*/
-/*nav*/
-/*.navbar a:hover {*/
-/*  color: yellow;*/
-/*}*/
+
+.mary{
+    color: #D74699;
+}
+.tammy{
+  color:  #FF8648;
+}
+.contact{
+    color:#5697E8;
+}
+.end{
+    color: #FF807D;
+}
+
+ /*Media Queries*/
+
+/*Media queries for small screens*/
+@media (min-width: 600px){
+
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+
+    }
+    h3 {
+        font-size: 15px;
+    }
+
+}
+
+/*Media queries for medium screens*/
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 24px;
+
+    }
+    h3 {
+        font-size: 23px;
+    }
+
+}
+/*Media queries for big screens*/
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+     p{
+     font-size: 20px;
+ }
+
+}
+
 
 img  {
   max-width: 100%;
