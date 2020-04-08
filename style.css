@@ -1,6 +1,9 @@
 body {
     background-color: lightblue;
   }
+  .Heading{
+      font-size: 24px;
+  }
 h1{
 font-family: 'Roboto', sans-serif;
 }
@@ -31,8 +34,33 @@ font-family: 'Roboto', sans-serif;
 .peach{
       background-color: #FFB673;
 }
+.phone{
+     border-radius: 50%;
+}
+
+
+
+
 .img{
     border-radius: 50%;
+}
+.contact-us-emoji{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 7%;
+}
+.sizeofemojis{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 10%;
+}
+.phone-icon{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 2%;
 }
 .center {
   display: block;
@@ -92,6 +120,8 @@ font-family: 'Roboto', sans-serif;
     h3 {
         font-size: 23px;
     }
+
+
 
 }
 /*Media queries for big screens*/
