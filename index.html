@@ -20,9 +20,18 @@
 
     </style>
   </head>
+<!--WELCOME ALERT-->
+ <div class="intro">
+   <button type="button" class="btn btn-primary">
+  Notifications <span class="badge badge-light">3</span>
+</button>
+  <span class="xbtn " onclick="this.parentElement.style.display='none';">&times;</span>
+  <span class="badge badge-pill badge-info center">Welcome to <strong>SHABR! </strong> </span>
+</div>
+<!--End of WELCOME ALERT-->
 
 <!--START OF NAVABR-->
- <nav class="navbar navbar-expand-lg navbar navbar-dark  sticky" id="home" style="background-color:rgb(181, 215, 228) ;">
+ <nav class="navbar navbar-expand-lg navbar navbar-dark  sticky"  style="background-color:rgb(181, 215, 228) ;">
       <a class="navbar-brand" href="#" >
          <img src="img/hot-air-balloon-clipart.png" width="30" height="40" alt=""> <a class= "Heading">SHABR</a>
       </a>
@@ -39,10 +48,10 @@
             <a class="nav-link nav justify-content-end"" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
            <li class="nav-item active Heading">
-            <a class="nav-link"  href="#accordion">Info <span class="sr-only">(current)</span></a>
+            <a class="nav-link"  href="#accordion">Information <span class="sr-only">(current)</span></a>
           </li>
            <li class="nav-item active Heading">
-            <a class="nav-link" href="#Balloon-Pictures">Gallery <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#gallery">Gallery <span class="sr-only">(current)</span></a>
           </li>
            <li class="nav-item active Heading">
             <a class="nav-link" href="#testimonials">Testimonials <span class="sr-only">(current)</span></a>
@@ -60,10 +69,10 @@
 <div class="container">
   <div class="row justify-content-around ">
     <div class="col-sm-8">
-      <img class="mr-3 img-fluid responsive-image" src="img/balloon-3.jpg" alt="Balloon Image">
+      <img class="mr-3 img-fluid responsive-image" src="img/airballoons.jpg" alt="Balloon Image">
     </div>
     <div class="col-sm-4 row justify-content-start">
-         <h1 class="mt-0 container row justify-content-start">SHABR</h1>
+         <h1 class="mt-0 container row justify-content-start ">SHABR</h1>
     <h2 class="mt-0 container row justify-content-start">Skydance Hot Air Balloon Rides</h2>
 
       <div class= "container">
@@ -85,7 +94,7 @@
 <!--END OF THE IMAGE OF THE BALLON AND THE TITLE "SHABR"-->
 
 <!-- Fun for Everyone -->
-<div>
+<div id="home">
 
 <div class="shadow-lg p-3 mb-5 bg-white rounded""><h1 class="text-center text-info"> Fun for Everyone!</div>
 <div class="shadow-lg p-3 mb-5 bg-white rounded"><h3 class="text-center text-warning">
@@ -176,9 +185,9 @@
 <!--GALLERY-->
 <div class="shadow p-3 mb-5 bg-white rounded "><h1 class="text-center">
     <div class="container-fluid section text-center fw id="#Balloon-Pictures">
-            <h1 class= "text-info" id="Balloon-Pictures" >Gallery</h1>
+            <h1 class= "text-info" id="gallery">Gallery</h1>
     </div>
-<div class="carousel slide" data-ride="carousel">
+<div id="Balloon-Pictures" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#Balloon-Pictures" data-slide-to="0" class="active"></li>
     <li data-target="#Balloon-Pictures" data-slide-to="1"></li>
@@ -247,8 +256,10 @@
         <div class= "container">
            <h3 class="text-success">Just a few of our happy customers!</h3>
             <div class="row">
+ <!--1st Card-->
   <div class="col-sm-4">
     <div class="card">
+     <span class="border border-success"></span>
       <div class="card-body">
         <img class= "center img" src="img/person1.png" alt="Person" style="width:100px">
         <!--<h5 class="card-title">Special title treatment</h5>-->
@@ -256,37 +267,47 @@
         <h5>- Joan H.</h5>
 
       </div>
+      <span class="border border-success"></span>
     </div>
   </div>
+   <!--END of 1st Card-->
+   
+    <!--2nd Card-->
   <div class="col-sm-4">
     <div class="card">
+      <span class="border border-info"></span>
       <div class="card-body">
          <img class= "center img" src="img/person2.png" alt="Person" style="width:100px">
         <h5 class="card-text text-primary">"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." </h5>
         <h5>- Marsha N.</h5>
 
       </div>
+      <span class="border border-info"></span>
     </div>
   </div>
+    <!--END OF 2ND Card-->
+  <!--3rd Card-->
   <div class="col-sm-4">
     <div class="card">
+      <span class="border border-danger"></span>
 
   <img class= "center img" src="img/person3.png" alt="Person" style="width:100px">
-
-
+  
       <div class="card-body">
         <h5 class="card-text text-danger">"Thanks so much for making our experience so perfect. I definitely want to go back again! </h5>
         <h5>-Linda T.</h5>
 
       </div>
+      <span class="border border-danger"></span>
     </div>
 
   </div>
-
+<!--END OF 3rd Card-->
 
 <!--4th card-->
 <div class="col-sm-4">
     <div class="card">
+     <span class="border border-warning"></span>
 
   <img class= "center img" src="img/person4.png" alt="Person" style="width:100px">
 
@@ -296,6 +317,7 @@
         <h5> -Tammy P.</h5>
 
       </div>
+      <span class="border border-warning"></span>
     </div>
 </div>
 <!--END of 4th card-->
@@ -303,6 +325,7 @@
 <!--5th Card-->
 <div class="col-sm-4">
     <div class="card">
+      <span class="border border-primary"></span>
 
   <img class= "center img" src="img/Ethel-E.jpg" alt="Person" style="width:100px">
 
@@ -312,6 +335,7 @@
         <h5> -Ethel E.</h5>
 
       </div>
+       <span class="border border-primary"></span>
     </div>
 </div>
 <!--END of 5th card-->
@@ -319,7 +343,7 @@
 <!--6th Card-->
 <div class="col-sm-4">
     <div class="card">
-
+      <span class="border border-secondary"></span>
   <img class= "center img" src="img/mary.png" alt="Person" style="width:100px">
 
 
@@ -328,6 +352,7 @@
         <h5> -Mary C.</h5>
 
       </div>
+     <span class="border border-secondary"></span>
     </div>
 </div>
 <!--END of 6th card-->
@@ -358,7 +383,7 @@
        <img  src="img/phone.png" class="phone-icon"  width="20" height="30" alt="Weather Image">   <h5>     Phone: (555) 555-1234 </h5>
     </div>
    <h5> Copyright © 2016   |   SHABR </h5>
-
+<img src="img/hot-air-balloon-clipart.png" class= "middle" width="10" height="20" alt="Logo">
 </div>
 
 </div>
