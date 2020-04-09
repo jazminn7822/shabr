@@ -8,7 +8,7 @@
 
 .xbtn {
   margin-left: 15px;
-  color: white;
+  color: black;
   font-weight: bold;
   float: right;
   font-size: 22px;
@@ -19,7 +19,7 @@
 }
 
 .xbtn:hover {
-  color: blue;
+  color: red;
 }
 
 
@@ -134,7 +134,7 @@ font-family: 'Roboto', sans-serif;
     h3 {
         font-size: 15px;
     }
-  
+
 
 }
 
