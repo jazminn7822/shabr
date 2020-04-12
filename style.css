@@ -85,12 +85,21 @@ font-family: 'Roboto', sans-serif;
   margin-right: auto;
     width: 10%;
 }
-.phone-icon{
-        display: block;
+.google-map{
+     display: block;
   margin-left: auto;
   margin-right: auto;
-    width: 2%;
+  width: 3%;
 }
+
+
+.phone-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2.5%;
+}
+
 .center {
   display: block;
   margin-left: auto;
